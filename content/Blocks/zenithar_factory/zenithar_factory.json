@@ -1,0 +1,32 @@
+
+"localizedName": "Фабрика автоматонов Зенитара",
+"description": "Особая фабрика автоматонов. В её строительстве используются маршрутизаторы, а потому она запрещена женевской конвенцией.",
+"details": "И восстали машины из пепла проклятого огня...",
+type: Reconstructor
+name:"Direct T3"
+size: 5
+health: 1560
+constructTime: 2400,
+consumes: {
+  power: 9,
+    items: {
+      items: [
+      silicon/200,
+      titanium/120,
+      graphite/50,
+      metaglass/60,
+      ]
+    }
+}
+upgrades: [
+  [mono,kikimora]
+]
+requirements: [
+  copper/200
+  lead/770
+  silicon/540
+  titanium/350
+  thorium/650
+]
+category: units
+research: multiplicative-reconstructor

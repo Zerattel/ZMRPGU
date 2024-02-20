@@ -1,0 +1,31 @@
+
+"localizedName": "Фабрика механизмов Велина",
+"description": "Особая фабрика автоматонов. Она покрыта пылью и выполнена в индустриальном стиле. Кажется нужна для реконструкции тяжёлой индустриальной техники.",
+"details": "Шаш",
+type: Reconstructor
+size: 5
+health: 1560
+constructTime: 2400
+consumes: {
+  power: 9
+    items: {
+      items: [
+      silicon/200
+      scrap/300
+      titanium/120
+      metaglass/60
+      ]
+    }
+}
+upgrades: [
+  [nova,drillmat3000]
+]
+requirements: [
+  lead/500
+  silicon/400
+  scrap/1000
+  titanium/350
+  thorium/650
+]
+category: units
+research: multiplicative-reconstructor
