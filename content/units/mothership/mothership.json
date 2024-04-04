@@ -1,0 +1,78 @@
+{
+    "localizedName": "[purple] Материнский корабль",
+    "description": "Ультимативная единица поддержки Зенитара. Обладает ремонтными турелями для ремонта союзных единиц, пассивно усиляет все союзные единицы в радиусе действия и строит небольших дронов прямо на поле боя для использования их в качестве пушечного мяса. [red] Каждый гангста, пока к нему не прилетает такая вещь...",
+    "details": "Ходят слухи, что его центральный процессор работает на маршрутизаторах и обладает разумом...",
+        "health": 25000,
+        "shadowElevation": 6,
+        "armor": 13,
+        "speed": 0.5,
+        "accel": 0.02,
+        "drag": 0.012,
+        "lowAltitude": false,
+        "flying": true,
+        "outline": false,
+        "engineOffset": 50,
+        "faceTarget": false,
+        "rotateSpeed": 0.3,
+        "hitSize": 35.05,
+        "engineSize": 9.0,
+        "isEnemy": false,
+        "engines": [
+          {
+            "type": "unitEngine",
+            "mirror": true,
+            "x": 20,
+            "engineSize": 6.0,
+            "engineOffset": 50
+          }
+      ],
+            "abilities": [
+              {
+                "type": "ForceFieldAbility",
+                "radius": 140,
+                "regen": 3,
+                "max": 7000,
+                "cooldown": 500
+              },
+              {
+                "type": "UnitSpawnAbility",
+                "unit": "flare",
+                "spawnTime": "600",
+                "spawnX": 0,
+                "spawnY": 18
+              },
+              {
+                "type": "UnitSpawnAbility",
+                "unit": "flare",
+                "spawnTime": "600",
+                "spawnX": -0,
+                "spawnY": 35
+              }
+            ],
+            "weapons": [
+              {
+                "type": "RepairBeamWeapon",
+                "name": "remont",
+                "mirror": "false",
+                "x": "-12",
+                "y": "-5",
+                "repairSpeed": "2"
+              },
+              {
+                "type": "RepairBeamWeapon",
+                "name": "remont",
+                "mirror": "true",
+                "x": "-20",
+                "y": "-35",
+                "repairSpeed": "2"
+              },
+              {
+                "type": "RepairBeamWeapon",
+                "name": "remont",
+                "mirror": "false",
+                "x": "16",
+                "y": "5",
+                "repairSpeed": "2"
+              }
+            ]
+}

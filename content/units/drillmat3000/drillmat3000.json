@@ -1,0 +1,61 @@
+{
+    "localizedName": "Буравчик",
+    "description": "Особая единица Велина. Старая и пожухлая, на воздушной подушке. Используется для добычи больших объёмов сырья.",
+    "details": "Шиш",
+        "hovering": true,
+        "Commands": [{"type": "Move"},{"type": "Mine"}],
+        "mineTier": 4,
+        "mineSpeed": 5.0,
+        "shadowElevation": 0.2,
+        "drag": 0.07,
+        "speed": 1.5,
+        "rotateSpeed": 1,
+        "accel": 0.02,
+        "health": 2000,
+        "armor": 3,
+        "hitSize": 28,
+        "engineOffset": 24,
+        "engineSize": 6,
+        "itemCapacity": 350,
+        "useEngineElevation": false,
+        "faceTarget": true,
+        "buildSpeed": 1.0,
+        "isEnemy": false,
+        "abilities": [
+            {
+                "type": "MoveEffectAbility",
+                "x": 0,
+                "y": -28,
+                "color": "FFA500",
+                "trailEffect": "missileTrailShort",
+                "layerOffset": -0.001,
+                "teamColor": true
+            }
+        ],
+        "parts": [
+            {
+                "type": "HoverPart",
+                "x": 0,
+                "y": -20,
+                "mirror": false,
+                "radius": 20,
+                "phase": 90,
+                "stroke": 2,
+                "sides": 4,
+                "layerOffset": -0.001,
+                "color": "FFA500"
+            },
+            {
+                "type": "HoverPart",
+                "x": 15,
+                "y": 21,
+                "mirror": true,
+                "radius": 15,
+                "phase": 90,
+                "stroke": 2,
+                "sides": 4,
+                "layerOffset": -0.001,
+                "color": "FFA500"
+            }
+        ]
+}

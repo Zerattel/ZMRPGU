@@ -1,0 +1,16 @@
+{
+    "localizedName": "Модуль ENIAC",
+    "description": "Модуль, ещё больше расширяющий возможности особых командирских фабрик, добавляя их системам вычислительной мощности.",
+    "details": "И восстали машины из пепла проклятого огня...",
+    "type": "UnitAssemblerModule",
+    "tier": 2,
+      "name": "zen-assembler-module",
+      "requirements": [
+            lead/200
+            silicon/200
+            surge-alloy/200
+            blahaj/20
+      ],
+      "category": "units",
+      "size": 3
+}

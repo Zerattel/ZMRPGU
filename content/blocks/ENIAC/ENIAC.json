@@ -1,0 +1,16 @@
+{
+    "localizedName": "Сосборочный цех",
+    "description": "Модуль, расширяющий возможности особых командирских фабрик, добавляя их системам строительные мощности.",
+    "details": "И восстали машины из пепла проклятого огня...",
+    "type": "UnitAssemblerModule",
+    "tier": 1,
+      "name": "zen-assembler-module",
+      "requirements": [
+            lead/200
+            silicon/100
+            plastanium/100
+            blahaj/10
+      ],
+      "category": "units",
+    "size": 3
+}

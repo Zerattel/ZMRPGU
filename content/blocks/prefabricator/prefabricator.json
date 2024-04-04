@@ -1,0 +1,18 @@
+{
+    "localizedName": "Префабрикатор",
+    "description": "Фабрика по сбору готовых строительных блоков. Может использоваться для производства маршрутизаторов, а потому запрещена женевской конвенцией.",
+      "type": "Constructor",
+      "name": "prefabricator",
+        "requirements": [
+            silicon/50,
+            copper/100,
+            titanium/25
+        ],
+        "hasPower": true,
+        "buildSpeed": 0.6,
+        consumes: {
+            power: 1
+            },        "size": 3,
+        "category": "units"
+
+}

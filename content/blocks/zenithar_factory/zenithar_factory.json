@@ -1,0 +1,45 @@
+
+{
+"localizedName": "Фабрика автоматонов Зенитара",
+"description": "Особая фабрика автоматонов. В её строительстве используются маршрутизаторы, а потому она запрещена женевской конвенцией.",
+"details": "И восстали машины из пепла проклятого огня...",
+"type": "UnitAssembler",
+"name":"Zenithar_factory",
+"size": 5,
+"health": 1560,
+"constructTime": 2400,
+"areaSize": 13,
+
+"plans": [
+  {
+  "type": "assemblerUnitPlan",
+  "unit": "kikimora",
+  "requirements": [mega/1,pulsar/1,thorium-wall-large/2,router/2],
+  "time": 1000.0
+  },
+  {
+    "type": "assemblerUnitPlan",
+    "unit": "Rubicon",
+    "requirements": [zmrpgu-kikimora/1,atrax/1,plastanium-wall-large/2,router/8],
+    "time": 2000.0
+  },
+  {
+    "type": "assemblerUnitPlan",
+    "unit": "mothership",
+    "requirements": [zmrpgu-Rubicon/1,quasar/2,plastanium-wall-large/8,router/16],
+    "time": 3500.0
+  }
+],
+
+"requirements": [
+  copper/200
+  silicon/100
+  titanium/100
+],
+"hasPower": true,
+"hasConsumers": true,
+"consumes": {
+  "power": 1.5
+  },
+"category": "units"
+}

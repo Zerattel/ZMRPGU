@@ -1,0 +1,16 @@
+{
+      "name": "[blue]Алтарь",
+      "description": "Алтарь плюшевой акулы. Ремонтирует союзные единицы.",
+      "type": "RepairTower",
+      "category": "units",
+        "requirements": [
+          blahaj/6
+        ],
+      "size": 1,
+      "range": 100,
+      "healAmount": 1.5,
+      "powerConsumption": 1,
+      "liquidConsumption": {
+        "amountPerSecond": 0.05
+      }
+}

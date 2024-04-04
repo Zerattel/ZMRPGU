@@ -1,0 +1,71 @@
+{
+    "localizedName": "Рубикон",
+    "description": "Особая единица поддержки командира Зенитара. Используется как крейсер радиоэлектронной борьбы. Притягивает вражеские единицы, сбивает угрожающие союзникам снаряды и выводит из строя вражескую ремонтную инфраструктуру.",
+    "details": "Ходят слухи, что центральный процессор Рубикона работает на маршрутизаторах и обладает разумом...",
+        "health": 750,
+        "armor": 7.2,
+        "speed": 1.6,
+        "accel": 0.026,
+        "drag": 0.017,
+        "lowAltitude": false,
+        "flying": true,
+        "engineOffset": 16.5,
+        "faceTarget": false,
+        "hitSize": 17.05,
+        "engineSize": 8.0,
+        "isEnemy": false,
+        "abilities": [{
+                    "type": "SuppressionFieldAbility",
+                    "range": 300,
+                    "cooldown": 60.0
+                    }],
+        "weapons": [
+            {
+                "name": "tractor",
+                "shootSound": "tractorbeam",
+                "reload": 30.0,
+                "mirror": false,
+                "x": 0.0,
+                "y": 0.0,
+                "rotate": true,
+                "controllable": false,
+                "autoTarget": true,
+                "bullet": {
+                    "type": "LaserBulletType",
+                    "lightColor": "color.blue",
+                    "damage": 1,
+                    "knockback": -25,
+                    "lifetime": 80.0,
+                    "shake": 0,
+                    "healPercent": 5.0,
+                    "collidesTeam": true,
+                    "pierce": true,
+                    "status": "electrified",
+                    "statusDuration": "600",
+                    "collidesGround": false
+                }
+            },
+                {
+                    "type": "PointDefenseWeapon",
+                    "name": "point-defense-mount",
+                    "sound": "lasershoot",
+                    "mirror": false,
+                    "x": 0.0,
+                    "y": -1.0,
+                    "reload": 27.0,
+                    "targetInterval": 10.0,
+                    "targetSwitchInterval": 15.0,
+                    "predictTarget": false,
+                    "autoTarget": true,
+                    "controllable": false,
+                    "rotate": true,
+                    "useAmmo": false,
+                    "useAttackRange": false,
+                    "bullet": {
+                        "type": "PointLaserBulletType",
+                        "maxRange": 200.0,
+                        "damage": 17.0
+                    }
+                }
+        ]      
+}

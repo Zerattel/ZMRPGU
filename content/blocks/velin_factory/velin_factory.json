@@ -1,0 +1,28 @@
+
+"localizedName": "Фабрика механизмов Велина",
+"description": "Особая фабрика автоматонов. Она покрыта пылью и выполнена в индустриальном стиле. Кажется нужна для реконструкции тяжёлой индустриальной техники.",
+"details": "Шаш",
+type: UnitAssembler
+size: 5
+health: 1560
+constructTime: 2400
+"hasPower": true,
+"consumes": {
+  "power": 1.5
+  },"plans": [
+  {
+  "type": "assemblerUnitPlan",
+  "unit": "drillmat3000",
+  "requirements": [mono/4,combustion-generator/2,scrap-wall-large/5,router/4],
+  "time": 2500.0
+  },
+]
+requirements: [
+  lead/500
+  silicon/400
+  scrap/1000
+  titanium/350
+  thorium/650
+]
+category: units
+research: multiplicative-reconstructor

@@ -1,0 +1,30 @@
+{
+	"name": "Blahaj fabricator",
+	"description": "Фабрика по производству плюшевых акул из фазовой ткани.",
+	"type": "GenericCrafter",
+	"outputItem": {"item": "blahaj", "amount": "1"},
+	"consumes": {
+		"power": 3.0,
+		"items": {
+			"items": [
+				{"item": "phase-fabric", "amount": 10}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "copper" , "amount": 25},
+		{"item": "lead"   , "amount": 25},
+		{"item": "silicon", "amount": 15}
+	],
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "techloop",
+	"idleSoundVolume": 0.5
+}
