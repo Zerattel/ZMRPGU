@@ -19,7 +19,7 @@
   },
   {
     "type": "assemblerUnitPlan",
-    "unit": "Rubicon",
+    "unit": "rubicon",
     "requirements": [zmrpgu-kikimora/1,atrax/1,plastanium-wall-large/2,router/8],
     "time": 2000.0
   },
