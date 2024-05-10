@@ -26,7 +26,7 @@
   {
     "type": "assemblerUnitPlan",
     "unit": "mothership",
-    "requirements": [zmrpgu-Rubicon/1,quasar/2,plastanium-wall-large/8,router/16],
+    "requirements": [zmrpgu-rubicon/1,quasar/2,plastanium-wall-large/8,router/16],
     "time": 3500.0
   }
 ],
