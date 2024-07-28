@@ -13,7 +13,7 @@ constructTime: 2400
   {
   "type": "assemblerUnitPlan",
   "unit": "drillmat3000",
-  "requirements": [mono/4,combustion-generator/2,scrap-wall-large/5,router/4],
+  "requirements": [mono/4,combustion-generator/2,copper-wall-large/5,router/4],
   "time": 2500.0
   },
 ]
